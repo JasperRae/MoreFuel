@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": {
+      "item": "jmorefuel:nether_brick_dust"
+    },
+    "B": {
+      "item": "minecraft:magma_cream"
+    },
+    "C": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "jmorefuel:blazing_coal"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:flint"
+    },
+    "B": {
+      "item": "minecraft:netherbrick"
+    }
+  },
+  "result": {
+    "item": "jmorefuel:nether_brick_dust"
+  }
+}

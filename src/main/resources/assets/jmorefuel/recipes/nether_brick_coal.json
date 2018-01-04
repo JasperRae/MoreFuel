@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "jmorefuel:nether_brick_dust"
+    }
+  },
+  "result": {
+    "item": "jmorefuel:nether_brick_coal"
+  }
+}

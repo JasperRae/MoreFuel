@@ -3,7 +3,7 @@
   "modid": "jmorefuel",
   "name": "JasperRae's More Fuel Mod",
   "description": "Adds more fuel items to Minecraft.",
-  "version": "0.0.1",
+  "version": "0.2",
   "mcversion": "1.12.2",
   "url": "",
   "updateUrl": "",
@@ -11,6 +11,6 @@
   "credits": "",
   "logoFile": "assets/logo.png",
   "screenshots": [],
-  "dependencies": ["Thermal Expansion"]
+  "dependencies": []
 }
 ]

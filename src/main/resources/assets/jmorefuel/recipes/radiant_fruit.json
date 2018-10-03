@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_powder"
+    },
+    "B": {
+      "item": "minecraft:magma_cream"
+    },
+    "C": {
+      "item": "jmorefuel:charred_chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "jmorefuel:radiant_fruit "
+  }
+}
+

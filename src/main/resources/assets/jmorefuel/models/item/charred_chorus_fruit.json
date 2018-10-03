@@ -1,0 +1,6 @@
+{
+"parent": "builtin/generated",
+"textures": {
+"layer0": "jmorefuel:items/charred_chorus_fruit"
+}
+}

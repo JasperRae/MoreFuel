@@ -17,13 +17,15 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class MoreFuelItems {
 	
-	public static Item netherBrickCoal, netherBrickDust, glowingCoal, blazingCoal;
+	public static Item netherBrickCoal, netherBrickDust, glowingCoal, blazingCoal, charredChorusFruit, radiantFruit;
 	
 	public static void init() {
 		netherBrickCoal = new ItemFuel("nether_brick_coal", 2400);
 		netherBrickDust = new ItemCore("nether_brick_dust");
 		glowingCoal = new ItemFuel("glowing_coal", 1600);
 		blazingCoal = new ItemFuel("blazing_coal", 5400);
+		charredChorusFruit = new ItemCore("charred_chorus_fruit");
+		radiantFruit = new ItemFuel("radiant_fruit", 3200);
 	} 
 	
 	public static void register() {
@@ -31,6 +33,8 @@ public class MoreFuelItems {
 		registerItem(netherBrickDust);
 		registerItem(glowingCoal);
 		registerItem(blazingCoal);
+		registerItem(charredChorusFruit);
+		registerItem(radiantFruit);
 	}
 	
 	public static void registerItem(Item item) {
@@ -42,6 +46,8 @@ public class MoreFuelItems {
 		registerRender(netherBrickDust);
 		registerRender(glowingCoal);
 		registerRender(blazingCoal);
+		registerRender(charredChorusFruit);
+		registerRender(radiantFruit);
 	}
 	
 	public static void registerRender(Item item) {

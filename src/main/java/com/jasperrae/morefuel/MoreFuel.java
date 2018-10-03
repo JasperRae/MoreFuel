@@ -39,14 +39,13 @@ public class MoreFuel {
 	
 	@EventHandler 
 	public void preInit(FMLPreInitializationEvent event) {
+		GameRegistry.addSmelting(new ItemStack(Items.CHORUS_FRUIT_POPPED, 1), new ItemStack(MoreFuelItems.charredChorusFruit, 1), 1.0f);
 		MoreFuelItems.init();
 		proxy.preInit();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
-		GameRegistry.addSmelting(new ItemStack(Items.CHORUS_FRUIT_POPPED, 1), new ItemStack(MoreFuelItems.charredChorusFruit, 1), 1.0f);
-		
 		if (Loader.isModLoaded("thermalexpansion")) {
 			PulverizerAdd.initialize();
 		}

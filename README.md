@@ -11,7 +11,7 @@ Charred Chorus Fruit | Used to make Radiant Fruit.
 Nether Brick Coal    | Burns for 240s
 Glowing Coal         | Burns for 160s
 Blazing Coal         | Burns for 540s
-Radiant Fruit        | Burns for 320s
+Radiant Fruit        | Burns for 540s
 
 And makes the following usable as fuels:
 

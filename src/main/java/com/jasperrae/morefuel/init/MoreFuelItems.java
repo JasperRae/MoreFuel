@@ -25,7 +25,7 @@ public class MoreFuelItems {
 		glowingCoal = new ItemFuel("glowing_coal", 1600);
 		blazingCoal = new ItemFuel("blazing_coal", 5400);
 		charredChorusFruit = new ItemCore("charred_chorus_fruit");
-		radiantFruit = new ItemFuel("radiant_fruit", 3200);
+		radiantFruit = new ItemFuel("radiant_fruit", 5400);
 	} 
 	
 	public static void register() {
